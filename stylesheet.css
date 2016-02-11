@@ -1,7 +1,8 @@
 h1 {
-	color: black;
-	font-family: "Times New Roman";
-	text-align: center;
+	font-family: "Arial Black";
+	color:#FF3300;
+	border-style:inset;
+	text-align:center;
 }
 
 .titles {
@@ -43,16 +44,8 @@ h1 {
 
 }
 
-h1 {
-	font-family: "Arial Black";
-}
-
 body {
 	background-color:#232B2B;
 	color:white;
 }
 
-h1 {
-	color:#FF6600;
-	border-style:inset;
-}
