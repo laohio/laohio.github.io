@@ -5,6 +5,10 @@ h1 {
 	text-align:center;
 }
 
+ul {
+	list-style:square;
+}
+
 .mypicture {
 	text-align:center;
 }
