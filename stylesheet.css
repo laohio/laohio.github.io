@@ -47,6 +47,12 @@ h1 {
 	font-family: "Arial Black";
 }
 
-#contents {
-	background-color:blue;
+body {
+	background-color:#232B2B;
+	color:white;
+}
+
+h1 {
+	color:#FF6600;
+	border-style:inset;
 }
