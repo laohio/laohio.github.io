@@ -1,0 +1,52 @@
+h1 {
+	color: black;
+	font-family: "Times New Roman";
+	text-align: center;
+}
+
+.titles {
+	font-family:"Arial Black";
+}
+
+.mypicture {
+	text-align:center;
+}
+
+.myinfo {
+	color:black;
+	font-family: "Times New Roman";
+}
+
+.summary {
+	text-align: center;
+	font-family: "Times New Roman", Times;
+	font-size: 125%;
+	margin-left:2cm;
+	margin-right:2cm;
+	text-align:justify;
+}
+
+.section {
+	text-align:left;
+}
+
+.position {
+	font-size:125%;
+}
+
+.employer {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 125%;
+}
+
+.employmentdate {
+
+}
+
+h1 {
+	font-family: "Arial Black";
+}
+
+#contents {
+	background-color:blue;
+}
