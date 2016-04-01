@@ -7,12 +7,6 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
 html, 
 body {
   height: 100%;
@@ -38,12 +32,16 @@ body {
   align-items: center;
   background-image: url('dinner.jpg');
   background-size: cover;
-  height:575px;
+  height:625px;
   color: #ffffff;
 }
 
 .jumbotron h1 {
   font-weight: 700;
+}
+
+.jumbotron .container {
+  margin-top: 40px;
 }
 
 
@@ -61,15 +59,69 @@ section h2.section-heading {
   margin-bottom: 15 px;
 }
 
+section h3.section-subheading {
+  font-size: 16px;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+section p {
+  font-size: 30px;
+  text-align: left;
+  padding: 50px 0;
+}
+
+#contact p {
+  text-align: center;
+  padding: 0px 0;
+}
+
+#writing {
+  background: #393939;
+  color: white;
+}
+
+#writing h3 {
+  padding: 20px 0;
+}
+
+#writing a {
+  text-decoration: none;
+}
+
+#writing ul, #writing li {
+  text-align: left;
+}
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
 
 hr {
-  border-color: black;
+  border-color: #f05f40;
   border-width: 3px;
   max-width: 50px;
+  padding: 20px 0;
+}
+
+#bio .colorchange{
+  color: #33CCFF;
+}
+
+
+.mypicture {
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  max-width: 400px;
+}
+
+
+
+.glyphicon {
+  font-size: 40px;
 }
 
 footer {
