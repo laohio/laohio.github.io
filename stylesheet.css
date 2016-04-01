@@ -13,7 +13,6 @@ body {
   width: 100%;
 }
 
-
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 300;
@@ -73,9 +72,18 @@ section p {
   padding: 50px 0;
 }
 
+#contact {
+  background-color: #fff2e7;
+}
+
 #contact p {
   text-align: center;
   padding: 0px 0;
+}
+
+#resume {
+  background-color: #4b4d52;
+  color: white;
 }
 
 #writing {
@@ -116,9 +124,8 @@ hr {
   height: auto;
   width: auto;
   max-width: 400px;
+  margin-bottom: 1cm;
 }
-
-
 
 .glyphicon {
   font-size: 40px;
