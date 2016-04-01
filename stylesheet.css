@@ -1,51 +1,83 @@
-h1 {
-	font-family: "Arial Black";
-	color:#FF3300;
-	border-style:inset;
-	text-align:center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-ul {
-	list-style:square;
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
-.mypicture {
-	text-align:center;
+html, 
+body {
+  height: 100%;
+  width: 100%;
 }
 
-.myinfo {
-	color:black;
-	font-family: "Times New Roman";
-}
-
-.summary {
-	text-align: center;
-	font-family: "Times New Roman", Times;
-	font-size: 125%;
-	margin-left:2cm;
-	margin-right:2cm;
-	text-align:justify;
-}
-
-.section {
-	text-align:left;
-}
-
-.position {
-	font-size:125%;
-}
-
-.employer {
-	font-family: "Lucida Console", Monaco, monospace;
-	font-size: 125%;
-}
-
-.employmentdate {
-
-}
 
 body {
-	background-color:#232B2B;
-	color:white;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
 }
 
+#my-navbar {
+  padding: 20px 0;
+  font-size:20px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.jumbotron {
+  align-items: center;
+  background-image: url('dinner.jpg');
+  background-size: cover;
+  height:575px;
+  color: #ffffff;
+}
+
+.jumbotron h1 {
+  font-weight: 700;
+}
+
+
+
+
+
+
+section {
+  padding: 100px 0;
+}
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15 px;
+}
+
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+hr {
+  border-color: black;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}

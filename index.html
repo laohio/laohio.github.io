@@ -1,16 +1,109 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-		<title>Nicholas Ficeto's Homepage</title>
-	</head>
-	<body>
-	<h1>Welcome to my homepage!</h1>
-		<div class ="mypicture"> <img src="me.jpg" alt="Picture of me"/> </div>
-	<ul>
-		<li>My Name: Nicholas Ficeto</li>
-		<li><a href="laohio.github.io/resume.html">My Resume</a></li>
-		<li><a href="laohio.github.io/bio.html">A Short Bio</a></li>
-	</ul>
-	</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Nicholas Ficeto</title>
+ 	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- Additional CSS -->
+	<link rel="stylesheet" href="stylesheet.css">
+  </head>
+  	<!--creates space between 'welcome' and the header-->
+   	<style>
+  	body { 
+  		padding-top: 40px;
+  	</style>
+  <body> 
+
+  	<!--Navbar-->
+  	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar"> 
+  		<div class="container">
+  			<div class="navbar-header">
+  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  				</button>
+
+  				<a href="" class="navbar-brand">Nicholas A. Ficeto</a>
+  			</div><!--end navbar header-->
+  			<div class="collapse navbar-collapse" id="navbar-collapse">
+  				<ul class="nav navbar-nav pull-right">
+  					<li><a class="page-scroll" href="#bio">Bio</a></li>
+  					<li><a class="page-scroll" href="#resume">Resume</a></li>
+  					<li><a class="page-scroll" href="#bio">Contact</a></li>
+  				</ul>
+  			</div>
+  		</div><!--end container-->
+  	</nav><!--end navbar-->
+  	
+  	<!--jumbotron-->
+  	<div class="jumbotron">
+  		<div class="container text-center">
+  			<h1>Welcome</h1>
+  			<p>This is my personal website</p>
+
+  			<div class="btn-group">
+  				<a href="" class="btn btn-lg btn-default">About Me</a>
+  			</div><!--end button-->
+
+
+  		</div><!--end container-->
+  	</div><!--end jumbotron-->
+
+  	<!--Bio Section-->
+  	<section id="bio">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-lg-12 text-center">
+  					<h2 class="section-heading">A Short Biography</h2>
+  					<hr class="primary">
+  					<p>My name is Nicholas Ficeto.  I'm currently a sophomore at Tufts University majoring in Engineering
+  					Psychology (Human Factors) and minoring in economics.  I have a passion for designing UX specific to 
+  					a website based on its analytics.</p>
+  				</div>
+
+  			</div> <!--end of row-->
+  		</div> <!--end of container-->
+  	</section>
+
+
+
+  	<!--Contact section-->
+  	<section id="contact">
+  		<div class="container">
+  			<div class="row">
+  			<div class="col-lg-8 col-lg-offset-2 text-center">
+  				<h2 class="section-heading">Let's Get in Touch!</h2>
+  				<hr class="primary">
+
+  			</div>
+
+  			</div> <!--end of row-->
+  		</div> <!--end of container-->
+  	</section>
+
+
+
+
+
+
+  	<!--Footer-->
+  	<footer class="container">
+  		<div class="row">
+  			<div class="col-md-4">
+  				<span class="copyright">Copyright &copy; Nicholas A. Ficeto 2016</span>
+  			</div>
+  		</div>
+  	</footer>
+
+
+
+
+  <!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
 </html>
