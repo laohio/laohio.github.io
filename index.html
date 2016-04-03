@@ -161,7 +161,7 @@
 
                  // Open info window on click of marker
                 google.maps.event.addListener(marker, 'click', function() {
-                  var content_string = "<p class='map_text'>" + "Home Base" + "</p>" + "<p class='map_text'>" + "Location: Tufts Univeristy" + "</p>";
+                  var content_string = "<p class='map_text'>" + "<i class='fa fa-university fa-2x fa-fw university'></i>" + "  Home Base" + "</p>" + "<p class='map_text'>" + "Location: Tufts University" + "</p>";
                   infowindow.setContent(content_string);
                   infowindow.open(map, this);
                 });
