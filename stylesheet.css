@@ -16,7 +16,7 @@ h6 {
 
 
 #name {
-  color: #330000;
+  color: #F0F8FF;
   text-shadow: 1px 0px 1px #787777;
   font-weight: 900;
   font-size: 50px;
@@ -62,7 +62,7 @@ body {
 .navbar-brand {
   font-size: 25px;
   transform: scale(1, 1.25);
-  font-weight: bold;
+  font-weight: 900;
   letter-spacing: 1px;
 }
 
