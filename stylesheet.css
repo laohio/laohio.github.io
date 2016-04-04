@@ -9,7 +9,7 @@ h6 {
 
 .small {
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 900;
     text-transform: uppercase;
     color: #ACA9A0;
 }
@@ -18,7 +18,7 @@ h6 {
 #name {
   color: #330000;
   text-shadow: 1px 0px 1px #787777;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 50px;
   text-transform: uppercase;
   letter-spacing: -5px;
@@ -32,7 +32,7 @@ h6 {
 #job {
   color: white;
   text-shadow: 1px 0px 1px #787777;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 50px;
   text-transform: uppercase;
   letter-spacing: -5px;
