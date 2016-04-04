@@ -144,7 +144,7 @@
                 };
 
                 // Custom marker image for me, sized appropriately
-                myIcon = new google.maps.MarkerImage("me.jpg", null, null, null, new google.maps.Size(21,30));
+                myIcon = new google.maps.MarkerImage("me.jpg", null, null, null, new google.maps.Size(35, 40));
            
                 var marker = new google.maps.Marker({
                   position: location,
@@ -161,7 +161,7 @@
 
                  // Open info window on click of marker
                 google.maps.event.addListener(marker, 'click', function() {
-                  var content_string = "<p class='map_text'>" + "<i class='fa fa-university fa-2x fa-fw university'></i>" + "  Home Base" + "</p>" + "<p class='map_text'>" + "Location: Tufts University" + "</p>";
+                  var content_string = "<p class='map_text'>" + "<i class='fa fa-university fa-2x fa-fw university'></i>" + "  Home Base" + "</p>" + "<p class='map_text'>" + "Location: Tufts Univeristy" + "</p>";
                   infowindow.setContent(content_string);
                   infowindow.open(map, this);
                 });
