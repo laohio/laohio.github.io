@@ -18,7 +18,6 @@ h6 {
 #name {
   color: #330000;
   text-shadow: 1px 0px 1px #787777;
-  font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
   font-size: 50px;
   text-transform: uppercase;
@@ -33,7 +32,6 @@ h6 {
 #job {
   color: white;
   text-shadow: 1px 0px 1px #787777;
-  font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
   font-size: 50px;
   text-transform: uppercase;
@@ -64,7 +62,6 @@ body {
 .navbar-brand {
   font-size: 25px;
   transform: scale(1, 1.25);
-  font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -74,11 +71,10 @@ body {
   background-image: url('dinner.jpg');
   background-size: cover;
   height: 625px;
-  color: #ffffff;
 }
 
 .jumbotron h1 {
-  font-weight: 900;
+  font-weight: bold;
   font-size: 60px;
   text-transform: uppercase;
   letter-spacing: -5px;
@@ -90,14 +86,6 @@ body {
   margin: 0 auto;
   width: 100%;
 }
-
-.jumbotron .container {
-  font-family: 'Maven Pro', sans-serif;
-}
-
-
-
-
 
 
 section {
