@@ -7,6 +7,44 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.small {
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ACA9A0;
+}
+
+
+#name {
+  color: #330000;
+  text-shadow: 1px 0px 1px #787777;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #787777;
+  filter: dropshadow(color=#787777, offx=1, offy=1);
+  margin: 0 auto;
+  width: 100%;
+}
+
+#job {
+  color: white;
+  text-shadow: 1px 0px 1px #787777;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #787777;
+  filter: dropshadow(color=#787777, offx=1, offy=1);
+  margin: 0 auto;
+  width: 100%;
+}
+
 html, 
 body {
   height: 100%;
@@ -26,6 +64,9 @@ body {
 .navbar-brand {
   font-size: 25px;
   transform: scale(1, 1.25);
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
 .jumbotron {
@@ -37,11 +78,21 @@ body {
 }
 
 .jumbotron h1 {
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+  line-height: 80px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px #787777;
+  filter: dropshadow(color=#787777, offx=1, offy=1);
+  margin: 0 auto;
+  width: 100%;
 }
 
 .jumbotron .container {
-  margin-top: 40px;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 
