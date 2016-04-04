@@ -9,7 +9,7 @@ h6 {
 
 .small {
     font-size: 15px;
-    font-weight: 900;
+    font-weight: bold;
     text-transform: uppercase;
     color: #ACA9A0;
 }
@@ -19,7 +19,7 @@ h6 {
   color: #330000;
   text-shadow: 1px 0px 1px #787777;
   font-family: 'Maven Pro', sans-serif;
-  font-weight: 900;
+  font-weight: bold;
   font-size: 50px;
   text-transform: uppercase;
   letter-spacing: -5px;
@@ -34,7 +34,7 @@ h6 {
   color: white;
   text-shadow: 1px 0px 1px #787777;
   font-family: 'Maven Pro', sans-serif;
-  font-weight: 900;
+  font-weight: bold;
   font-size: 50px;
   text-transform: uppercase;
   letter-spacing: -5px;
@@ -65,7 +65,7 @@ body {
   font-size: 25px;
   transform: scale(1, 1.25);
   font-family: 'Maven Pro', sans-serif;
-  font-weight: 900;
+  font-weight: bold;
   letter-spacing: 1px;
 }
 
