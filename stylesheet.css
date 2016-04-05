@@ -57,6 +57,7 @@ body {
 #my-navbar {
   padding: 15px 0;
   font-size:15px;
+  letter-spacing: 1px;
 }
 
 .navbar-brand {
