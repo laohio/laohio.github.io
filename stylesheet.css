@@ -107,7 +107,7 @@ section h3.section-subheading {
   margin-bottom: 25px;
 }
 
-section p {
+.paragraph {
   font-size: 30px;
   text-align: left;
   padding: 50px 0;
@@ -129,6 +129,18 @@ section p {
 #resume {
   background-color: #4b4d52;
   color: white;
+}
+
+#resume a {
+  text-decoration: none;
+}
+
+.myresume {
+
+}
+
+object:resume {
+
 }
 
 #writing {
