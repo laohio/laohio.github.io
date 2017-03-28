@@ -84,7 +84,6 @@ body {
   color: white;
   text-shadow: 1px 1px 1px #787777;
   filter: dropshadow(color=#787777, offx=1, offy=1);
-  margin: 0 auto;
   width: 100%;
 }
 
