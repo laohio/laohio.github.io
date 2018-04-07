@@ -58,10 +58,11 @@ section .container{
 
 .preview {
 	background-color: white;
+	background-size: cover;
 	height: 200px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	background-image: url('portrait.jpg');
+	background-image: url('comingsoon.jpg');
 	opacity: 0.5;
 }
 
