@@ -72,3 +72,8 @@ section .container{
 }
 
 /* A "dummy" class used to fix issue of fixed navbar hiding content */
+
+#map-container {
+  height: 400px;
+  width: 400px;
+}
