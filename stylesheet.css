@@ -77,3 +77,8 @@ section .container{
   height: 400px;
   width: 400px;
 }
+
+footer {
+	margin-top: 20px;
+	font-size: 12px;
+}
