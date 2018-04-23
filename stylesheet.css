@@ -37,8 +37,10 @@ hr {
 }
 
 section {
-	padding-top: 50px;
-	border-top: -50px;
+    padding-top: 55px;
+    margin-top: -55px;
+}
+
 }
 
 section .container{
@@ -52,8 +54,9 @@ section .container{
 }
 
 
-#portfolio {
+#portfolio .container-fluid {
 	background-color: black;
+	color: white;
 }
 
 .preview {
@@ -82,3 +85,5 @@ footer {
 	margin-top: 20px;
 	font-size: 12px;
 }
+
+
