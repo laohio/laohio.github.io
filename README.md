@@ -4,8 +4,8 @@ March 2016
 
 OVERVIEW
 --------
-This is my personal website.  I am the sole contributor of content.  Small changes are constantly being added.
+This is my personal website.
 
 IMPLEMENTATION
 --------------
-This site was styled using a combination of Bootstrap and custom css.
+This site was styled using a mix of Bootstrap and custom CSS.  It features a bio, portfolio, and contact section.
