@@ -5,7 +5,6 @@ body, html {
 
 }
 
-
 .navbar > li.nav-item { 
 	margin-right: 10px;
 	color: white;
@@ -22,7 +21,6 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover;
 }
-
 
 section hr {
   max-width: 50px;
@@ -41,10 +39,6 @@ section {
     margin-top: -55px;
 }
 
-}
-
-section .container{
-}
 
 section p {
 	font-size: 20px;
@@ -72,19 +66,25 @@ section p {
 .preview {
 	background-color: white;
 	background-size: cover;
-	height: 200px;
+	height: 250px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	background-image: url('comingsoon.jpg');
 	opacity: 0.5;
+	text-align:center;
+}
+
+.arch-app {
+	background-image: url('archapp.png');
+}
+
+.stock-app {
+	background-image: url('stockapp.png');
 }
 
 .preview:hover {
 	opacity: 1;
 
 }
-
-/* A "dummy" class used to fix issue of fixed navbar hiding content */
 
 #map-container {
   height: 400px;
